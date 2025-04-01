@@ -1,0 +1,6 @@
+@EatLogAPI_HostAddress = http://localhost:5291
+
+GET {{EatLogProject_HostAddress}}/EatLogProject/
+Accept: application/json
+
+###
