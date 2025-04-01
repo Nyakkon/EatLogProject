@@ -86,3 +86,51 @@ EatLog is **not a complete API** yet. Instead, it acts as a **template and learn
 - Anyone curious about **clean architecture** for backend
 - Practicing API requests with **Postman**
 - Preparing to build **full-stack apps**
+
+
+---
+
+## 🧰 Technology Stack
+
+- **.NET SDK**: .NET 9
+- **Language**: C#
+- **IDE**: Visual Studio 2022 or later / Visual Studio Code
+
+---
+
+## 🧼 How to Clean & Rebuild the Project
+
+Before running the API, follow these steps to ensure a clean build:
+
+### 🧹 Clean the solution
+
+Using Visual Studio:
+```
+Build > Clean Solution
+```
+
+Or using CLI:
+```bash
+dotnet clean
+```
+
+### 🔨 Rebuild the solution
+
+Using Visual Studio:
+```
+Build > Rebuild Solution
+```
+
+Or using CLI:
+```bash
+dotnet build
+```
+
+Then, to run the project:
+```bash
+dotnet run
+```
+
+This ensures that all old binaries and temporary files are removed and the latest code is compiled properly.
+
+---
